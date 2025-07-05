@@ -14,3 +14,6 @@ A = [-5, 3, 2, 1, -3, -3, 7, 2, 2, 2]
 bubble_sort(A)
 
 print(A)
+
+# Time Complexity: O(N ^ 2)
+# Space Complexity: O(1) (In-place sorting)
