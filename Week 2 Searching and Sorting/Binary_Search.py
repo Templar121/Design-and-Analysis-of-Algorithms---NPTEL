@@ -46,3 +46,17 @@ print(bsearch_trad(A, -2))
     # <----------------- Over - Under Method (Condition) ----------------->
     
 def bsearch_condition(A):
+    n = len(A)
+    l = 0
+    r = n - 1
+    
+    while l < r:
+        m = l + ((r - l) // 2)
+        if A[m] :
+            r = m
+        else:
+            l = m + 1
+    return l
+
+A = [False, False, False, True, True, True]
+print(bsearch_condition(A))
