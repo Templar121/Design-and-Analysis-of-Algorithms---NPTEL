@@ -60,3 +60,7 @@ def bsearch_condition(A):
 
 A = [False, False, False, True, True, True]
 print(bsearch_condition(A))
+
+
+
+# Time Complexity O(log N)
