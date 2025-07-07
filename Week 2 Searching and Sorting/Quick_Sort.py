@@ -17,4 +17,4 @@ A = quick_sort(A)
 print(A)
 
 # Time Complexity: O(n Log n) {With Good Pivot} Worst Case: O(n ^ 2)
-# Space Complexity: (n)
+# Space Complexity: O(n)
