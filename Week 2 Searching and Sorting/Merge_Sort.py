@@ -31,3 +31,7 @@ def merge_sort(arr):
 A = [2, -3, 2, 3, 2, -5, 2, -3, 1, 7]
 A = merge_sort(A)
 print(A)
+
+
+# Time Complexity: O(log n)
+# Space Complexity: O(n) for the auxiliary array used in the merge step.
