@@ -17,3 +17,6 @@ def counting_sort(A):
 A = [2, 3, 2, 3, 2, 5, 2, 3, 1, 7]
 counting_sort(A)
 print(A)
+
+# Time Complexity: O(n + k) where k is the range of the data
+# Space Complexity: O(k) 
