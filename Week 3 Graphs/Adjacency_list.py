@@ -6,3 +6,5 @@ D = defaultdict(list)
 
 for u, v in A:
     D[u].append(A)
+
+print(D)
